@@ -5,7 +5,7 @@ body, html {
   
   .bg {
     /* The image used */
-    background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+    background-image: url("background-home-desktop.jpg");
   
     /* Full height */
     height: 100%; 
@@ -127,7 +127,7 @@ b {
 }
 /**destination*/
 .moon{
-  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+  background-image: url("background-destination-desktop.jpg");
   
     /* Full height */
     height: 100%; 
@@ -192,7 +192,7 @@ b {
 
 /*crew*/
 .crew {
-  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+  background-image: url("background-crew-desktop.jpg");
   
   /* Full height */
   height: 100%; 
@@ -269,7 +269,7 @@ b {
 
 /*tech*/
 .tech {
-  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg");
+  background-image: url("background-technology-desktop.jpg");
   
   /* Full height */
   height: 100%; 
