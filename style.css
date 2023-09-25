@@ -1,0 +1,417 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    
+  }
+  .container {
+    margin-top: 30px;
+    color: #fff;
+  }
+  hr.hr1 {
+    position: absolute;
+    border: #fff 1.2px solid;
+    
+    top: +30px;
+    width: 350px;
+    left: 150px;
+  }
+  
+  .writing {
+    margin-top: 15%;
+   margin-left: 12%;
+   letter-spacing: 3px;
+   color: #7E829B;
+   
+  }
+  .space {
+    font-size: 100px;
+    font-family: bellefair;
+    color: #fff;
+  }
+.explain {
+    width: 400px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-family: barlow condensed;
+}
+  .begin {
+    font-family: bellefair;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+.round {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+letter-spacing: 3px;
+}
+#nav-thingy {
+  opacity: 90%;
+  background: none;
+  position: absolute;
+left: 40%;
+top: -10px;
+width: max-content;
+}
+.pagination a {
+  background: none;
+  opacity: 70%;
+  height: 65px;
+  
+  width: 120px;
+  padding-top: 22px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  background-color: #202A36;
+  
+  font-size: 12px;
+  font-family: barlow condensed;
+}
+  .pagination #first-child {
+    width: 170px;
+    padding-right: 20px;
+   text-align: right;
+   border-radius: 0;
+
+  }
+  #second-child {
+    width: 150px;
+  }
+  .pagination #last-child {
+    width: 295px;
+    padding-right: 30px;  
+    text-align: left;
+  }
+.pagination a:hover{
+  background-color: #0a0e12;
+  color: #fff;
+}
+b{
+  font-family: roboto;
+}
+.pagination a:active {
+ border-bottom: #fff 2px solid;
+}
+b {
+  margin-right: 7px;
+}
+/**destination*/
+.moon{
+  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pick {
+  color: #808080;
+ word-spacing: 5px;
+ font-weight: 600;
+}
+.moon-img {
+  position: absolute;
+  left: 18%;
+  width: 320px;
+  top: 40%;
+}
+#for-moon {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+#destination-page a {
+  background-color: transparent;
+  margin-right: -50px;
+}
+#writing-moon {
+  margin-top: -30px;
+  margin-left: -1;
+}
+#writing-moon .explain {
+  margin-top: -10px;
+}
+#nav-dest {
+  margin-left: 20px;
+  
+ }
+
+#bottom-dest {
+  margin-top: -25px;
+  font-size: 10px;
+}
+#writing1 {
+  padding-left: 45px;
+}
+#writing2 {
+  text-align: left;
+ 
+}
+#writing2 .begin {
+  padding-left: 20px;
+  margin-top: -10px;
+  font-weight: 400;
+}
+#writing1 .begin {
+  padding-left: 20px;
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+/*crew*/
+.crew {
+  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.space-crew {
+  font-size: 50px;
+  font-family: bellefair;
+  color: #fff;
+}
+.begin {
+  font-family: bellefair;
+}
+.round-crew {
+ 
+  
+  background-color: transparent;
+ 
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  text-align: center;
+ 
+ 
+}
+#specialist {
+  left: 65%;
+}
+#commander {
+  left: 60%;
+} 
+.special-img {
+  height: 500px;
+}
+.writing-crew {
+  margin-top: -30px;
+  margin-left: 100px;
+}
+#crew-head {
+  margin-left: 35px;
+}
+#crew-up {
+ margin-top: -30px;
+ 
+}
+#crew-explain {
+  width: 430px;
+}
+#crew-page a {
+  background-color: transparent;
+  color: #808080;
+  
+}
+#nav-crew i {
+  color: #808080;
+  
+}
+#nav-crew #active {
+  color: #fff;
+  }
+#nav-crew {
+  margin-left: 155px;
+  margin-top: 10px;
+}
+/*#crew-t {
+  margin-left: -20px;
+}*/
+
+
+/*tech*/
+.tech {
+  background-image: url("C:/Users/hp/Downloads/space-tourism-website-main (1)/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg");
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech-vehicle {
+  left: 69%;
+  top: 31%;
+}
+#tech-vehicle .special-img{
+  height: 400px;
+}
+#tech-page a {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  
+  border: #fff 1px solid;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+  margin-top: 40px;
+  margin-left: -20px;
+  font-family: bellefair;
+}
+#second-col {
+  margin-left: -600px;
+  margin-top: 50px;
+}
+
+#tech-explain {
+  font-family: barlow condensed;
+line-height: 2.5;
+letter-spacing: normal;
+color: #7E829B;
+width: 345px;
+font-size: 15px;
+}
+#head-tech {
+  font-size: 15px;
+  font-family: barlow condensed;
+  color: #7E829B;
+}
+
+#crew-active {
+  background-color: #fff;
+  color: #0a0e12;
+}
+#crew-tech {
+  background-color: transparent;
+}
+
+
+
+
+
+/*underlines*/
+hr.underline {
+  position: absolute;
+  top: 55px;
+  left: 113px;
+  border: #fff 1.7px solid;
+  width: 55px;
+  opacity: 100%;
+}
+hr.tech {
+  position: absolute;
+  top: 55px;
+  left: 455px;
+  height: 1px;
+  border: #fff 1.7px solid;
+  width: 100px;
+  opacity: 100%;
+}
+hr.destination-h {
+  position: absolute;
+  top: 55px;
+  left: 210px;
+  border: #fff 1.7px solid;
+  width: 100px;
+  opacity: 100%;
+}
+hr.crew-h {
+  position: absolute;
+  top: 55px;
+  left: 368px;
+  border: #fff 1.7px solid;
+  width: 50px;
+  height: 1px;
+  opacity: 100%;
+}
+hr.moon {
+  position: absolute;
+ 
+ 
+  top: 213px;
+  opacity: 100%;
+  left: 56.1%;
+  height: 1px;
+  border: #fff 1.7px solid;
+  width: 30px;
+}
+hr.mars {
+  position: absolute;
+ 
+ 
+  top: 213px;
+  opacity: 100%;
+  left: 61.5%;
+  height: 1px;
+  border: #fff 1.7px solid;
+  width: 30px;
+}
+hr.europa {
+  position: absolute;
+ 
+ 
+  top: 213px;
+  opacity: 100%;
+  left: 66.3%;
+  height: 1px;
+  border: #fff 1.7px solid;
+  width: 50px;
+}
+hr.titan {
+  position: absolute;
+ 
+ 
+  top: 213px;
+  opacity: 100%;
+  left: 72.3%;
+  height: 1px;
+  border: #fff 1.7px solid;
+  width: 35px;
+}
+hr.line {
+  margin-top: 40px;
+  margin-left: 64px;
+  width: 370px;
+}
